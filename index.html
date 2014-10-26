@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<link rel="stylesheet" href="breakout.css"/>
+	</head>
+	<body>
+		<div id="container">
+			<img id="title" src="title.jpg">
+
+			<canvas id="canvas" width="750" height="600"></canvas>
+
+			<div id="level-select">
+				<a href="" id="reset">RESET GAME</a>
+				<a href="">PLAY LEVEL 1</a>
+				<a href="#" onClick="level2()">PLAY LEVEL 2</a>
+				<a href="#" onClick="level3()">PLAY LEVEL 3</a>
+			</div>
+			
+			<p>SCORE: <span id="scores"></span></p>
+			<p>LIVES: <span id="lives"></span></p>
+			
+			<p>How to play: <b>space or left-click</b> to start. <b>left/right keys or move mouse</b> to move paddle!</p>
+
+        	<img id="gameover" src="gameover.jpg" alt="Game" width="150" height="175" style="display:none">
+        	<img id="win" src="win.gif" alt="Game" width="150" height="175" style="display:none">
+		</div>
+		<script src="breakout.js" type="text/javascript"></script>
+	</body>
+</html>

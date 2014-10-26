@@ -1,0 +1,54 @@
+body{
+  font-family: sans-serif;
+  font-size: 16px;
+}
+#container{
+  position: relative;
+	margin: 0 auto;
+	width: 750px;
+	top: 10%;
+}
+canvas {
+	border: 1px solid grey;
+}
+img#title{
+  display: block;
+  margin: 0 auto;
+}
+#level-select{
+  display: block;
+  margin: 15px 0px 15px 35px;
+}
+a{
+  text-decoration: none;
+  color: red;
+  margin: 0px 30px;
+}
+
+/*resets*/
+*, ::after, ::before{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, fieldset, table, ul {
+  margin: 1em 0;
+}
+.clear {
+  clear:both;
+}
+img {
+  border: 0;
+}
+fieldset {
+  border: 1px solid transparent;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td {
+  text-align: left;
+}
